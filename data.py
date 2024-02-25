@@ -4,6 +4,7 @@ from sklearn.impute import KNNImputer
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder
 
+
 # Reading data
 train = pd.read_csv('data/train.csv')
 test = pd.read_csv('data/test.csv')

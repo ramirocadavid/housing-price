@@ -7,8 +7,8 @@ model_uri="s3://rc-mlflow-artifacts/1/e9504ad2afa44c7ca86a6b821758b58e/artifacts
 # Define your configuration parameters as a dictionary
 config = {
     "execution_role_arn": "arn:aws:iam::211966428728:role/service-role/AmazonSageMaker-ExecutionRole-20240223T190075",
-    "bucket_name": "mlflow-project-artifacts",
-    "image_url": "211966428728.dkr.ecr.us-east-1.amazonaws.com/housing-price",
+    "bucket_name": "rc-mlflow-artifacts",
+    "image_url": "211966428728.dkr.ecr.us-east-1.amazonaws.com/housing-price:2.10.2",
     "region_name": "us-east-1",
     "archive": False,
     "instance_type": "ml.m5.xlarge",
